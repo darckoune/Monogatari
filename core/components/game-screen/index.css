@@ -48,12 +48,14 @@ game-screen {
 
 		&.right {
 			left: initial;
-			right: 0;
+			right: 25%;
+			transform: translateX(50%);
 		}
 
 		&.left {
-			left: 0;
+			left: 25%;
 			right: initial;
+			transform: translateX(-50%);
 		}
 	}
 
