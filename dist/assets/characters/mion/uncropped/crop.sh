@@ -1,0 +1,1 @@
+for file in *.png; do convert -crop 480x840+400+120 $file ../$file; done
